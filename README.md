@@ -1,11 +1,10 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -20,91 +19,64 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot of solution](./images/testimonials-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Here](https://igafshell.github.io/testimonials-grid-section/)
 
 ## My process
+
+I started with thinking how to structure and style the component. Then I proceeded with writing the code.
+I started with the html. The structure of a card consists of a header, which consists of the client image and a `<div>` with the client name and "Verified Graduate", the lead text and the text in quotes.
+After the html I started writing the css. I didn't use any frameworks or modules, just flexbox, grid and basic css. I had a bit of trouble with the colours, but it turned out fine. I knew how to work with grid, so the layout was easy to do. And to make it fit on small screens, I used a media query with some grid magic.
+Well, that's about it, it was a pretty tough and challenging project for me, but it turned out well.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Basic CSS attributes
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to use:
 
-To see how you can add code snippets, see below:
+- Grid CSS
+- Media Queries
+- Box-shadow Attribute
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+Also, I am proud of this CSS:
+
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+main {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas:
+		"purple purple gray-blue white-2"
+		"white-1 dark-blue dark-blue white-2";
+
+	max-width: 1100px;
+	gap: 2rem;
+	margin: auto;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will keep honing my frontend and web design skills on frontendmentor.com and learn how to use flexbox, grid, box-shadow*(I really don't understand how this one works)* and css in general.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp) - This page really helped me out with box-shadow
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@igafshell](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank [Frontend Mentor](https://www.frontendmentor.io/challenges) for this awesome challenge! I really enjoyed the process!
