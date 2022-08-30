@@ -67,7 +67,7 @@ main {
 
 ### Continued development
 
-I will keep honing my frontend and web design skills on frontendmentor.com and learn how to use flexbox, grid, box-shadow*(I really don't understand how this one works)* and css in general.
+I will keep honing my frontend and web design skills on frontendmentor.com and learn how to use flexbox, grid, box-shadow *(I really don't understand how this one works)* and css in general.
 
 ### Useful resources
 
