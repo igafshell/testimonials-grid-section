@@ -139,8 +139,12 @@ footer {
 
 /* Styling for specific cards */
 .card-purple {
-	background: hsl(263, 55%, 52%);
+	background-color: hsl(263, 55%, 52%);
 	grid-area: purple;
+	background-image: url("./images/bg-pattern-quotation.svg");
+	/* background-size: 110px; */
+	background-repeat: no-repeat;
+	background-position: right 100px top 0px;
 }
 
 .card-gray-blue {
