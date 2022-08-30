@@ -30,6 +30,20 @@ main {
 	margin: auto;
 }
 
+@media (max-width: 1000px) {
+	main {
+		grid-template-areas:
+			"purple"
+			"gray-blue"
+			"white-1"
+			"dark-blue"
+			"white-2";
+		grid-template-columns: 1fr;
+		margin: 2rem;
+		margin-top: 5rem;
+	}
+}
+
 footer {
 	/* Styling */
 	background: white;
